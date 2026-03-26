@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="1000">
+    <meta http-equiv="refresh" content="10000">
     <meta name="description" content="Formulario">
     <meta name="author" content="Anderson-Olororoso">
     <link rel="stylesheet" href="Css/bootstrap.min.css">
@@ -22,17 +22,21 @@
         </nav>
     </header>
     <main>
+
         <form action="sumbit">
-        <label for="name">E-mail</label>
-        <input type="name" id="email" name="email" required><br>
-        <label for="edad">Edad</label>
-        <input type="number" min="18" max="100" required><br>
-        <label for="number"> Teléfono</label>
-        <input type="tel" id="tel" name="tel" maxlength="8" required/><br>
-        <label for="date">Fecha de ingreso</label>
-        <input type="date" name="date" id="date" /><br>
-        <button type="submit">Enviar</button>
-    </form>
+            <h3>Registrarse</h3>
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">E-mail</label>
+            <input type="name" id="email" name="email" placeholder="micorreo@dominio.com" required>
+            <label for="edad">Edad</label>
+            <input type="number" min="18" max="100" required>
+            <label for="number"> Teléfono</label>
+            <input type="tel" id="tel" name="tel" maxlength="8" required/>
+            <label for="date">Fecha de ingreso</label>
+            <input type="date" name="date" id="date" />
+            <button type="submit">Enviar</button>
+        </form>
     </main>
     <footer></footer>
 </body>
